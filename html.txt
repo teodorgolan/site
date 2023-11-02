@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monk3y</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="container">
+                <nav>
+                    <h1>Monk3y</h1>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                </nav>
+                </ul>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="container">
+                <h2><span>Monk3y</span> studio </h2>
+                <p>Welcome to Monk3y Studio, your one-stop solution for professional web development, reliable web hosting, and high-performance Minecraft server hosting. With our expertise in crafting cutting-edge websites, providing secure and scalable hosting solutions, and delivering seamless gaming experiences, we ensure top-notch services tailored to your specific needs. Trust us to bring your digital aspirations to life, backed by our commitment to excellence and customer satisfaction.</p>
+                <button>Find out More</button>
+            </div>
+        </section>
+    </div>
+</body>
+  <a href="http://www.freepik.com">background design by pikisuperstar / Freepik</a>
+</html>

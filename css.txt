@@ -1,0 +1,126 @@
+html { 
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+body { 
+	width:100%; 
+	height:100%; 
+	margin:0; 
+	padding:0;
+}
+
+html {
+    font-size: 14px;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: rgb(236, 236, 236);
+    font-size: 2rem;
+}
+
+.page-wrapper {
+    height: 100%;
+    background-color: #151d20;
+    background-image: linear-gradient (0deg, rgba(#000, 0), rgba(#000, 0.6)), url(img/stars.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header {
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding: 0 2rem;
+}
+
+a {
+    font-weight: 500;
+    color: rgb(165, 163, 163);
+    text-decoration: none;
+}
+
+.container {
+    width: auto;
+    margin: 0 300px;
+}
+
+section.hero {
+    padding-top: 6rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color: rgb(236, 236, 236);
+    font-weight: 400px;
+}
+
+span {
+    font-size: 6rem;
+    display: block;
+    color: #fce131;
+    font-weight: 800;
+}
+
+p {
+    width: 400px;
+    color: rgb(185, 184, 184);
+}
+
+button {
+    background-color: #fce131;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    border: 0;
+    margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 1260px) {
+    .container {
+        margin: 0 200px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .page-wrapper {
+        header {
+            padding: 2rem;
+        }
+
+        section.hero {
+            padding: 0 2rem;
+        }
+    }
+}

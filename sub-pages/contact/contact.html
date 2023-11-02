@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monk3y | Contact Us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="/sub-pages/contact/contact.css">
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="container">
+                <nav>
+                    <a href="/index.html"><h1>Monk3y</h1></a>
+                    <ul>
+                        <li><a href="/sub-pages/about/about.html">About Us</a></li>
+                        <li><a href="/sub-pages/products/products.html">Products</a></li>
+                        <li><a href="/sub-pages/services/services.html">Services</a></li>
+                        <li><a href="/sub-pages/contact/contact.html">Contact Us</a></li>
+                </nav>
+                </ul>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="container">
+                <h2>Contact</h2>
+                <body>
+                    <div class="form">
+                        <form id="contact-form" method="POST" action="sendmail.php">
+                            <div class="form-row form-error" style="display:none;"></div>
+                            <div class="form-row">
+                              <label for="contact-form-fname">First Name:</label>
+                              <input id="contact-form-fname" class="form-input" type="text" name="fname" required>
+                            </div>
+                            <div class="form-row">
+                                <label for="contact-form-lname">Last Name:</label>
+                                <input id="contact-form-lname" class="form-input" type="text" name="lname" required>
+                              </div>
+                            <div class="form-row">
+                              <label for="contact-form-email">Email:</label>
+                              <input id="contact-form-email" class="form-input" type="email" name="email" required>
+                            </div>
+                            <div class="form-row">
+                              <label for="contact-form-subject">Subject:</label>
+                              <input id="contact-form-subject" class="form-input" type="text" name="subject">
+                            </div>
+                            <div class="form-row">
+                              <label for="contact-form-message">Message:</label>
+                              <textarea id="contact-form-message" class="form-input" name="message" required></textarea>
+                            </div>
+                            <button type="submit">Submit</button>
+                          </form>
+                        </form>
+                    </div>
+                </body>
+            </div>
+        </section>
+    </div>  
+</body>
+<footer><small>&copy; Copyright 2023, Monk3y</small>  
+  <p><small><a href="http://www.freepik.com">Background design by pikisuperstar / Freepik</a>
+  </small>
+  </p>
+  </footer>
+  </html>
